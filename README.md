@@ -80,8 +80,10 @@ Boredom. Just trying to get my server stats to show on my Discord.
 1. Install bc and curl with whatever package manager you use, for example: `sudo apt update && sudo apt install curl bc -y`
 2. Put the server_status.sh file somewhere.
 3. Allow the file to be executed `chmod +x server_status.sh`
-4. Manually execute it by running `./server_status.sh` or `sh server_status.sh`
-5. (Optional) You can also crontab to make this run automatically!
+4. Make a Webhook in Discord for a server, in a channel that you have access to making Webhooks for: ![image](https://github.com/user-attachments/assets/10f2cfd3-84d0-4867-b0f8-27104dd62610)
+
+5. Manually execute it by running `./server_status.sh` or `sh server_status.sh`
+6. (Optional) You can also crontab to make this run automatically!
   - (Optional) Run `crontab -e`
   - Add `*/5 * * * * /bin/bash /path/to/server_status.sh`
     - You can also change the time, if you know how to use Crontab. (Use `man crontab` for documentation)
