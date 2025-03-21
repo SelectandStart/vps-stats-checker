@@ -96,4 +96,4 @@ Boredom. Just trying to get my server stats to show on my Discord.
 
 ## License
 
-All files on this Github are licensed as described in [LICENSE.md](LICENSE.md), all other files contained in the purchased version of are licensed under [our proprietary license](PROPRIETARYLICENSE.md).
+All files on this Github are licensed as described in [LICENSE.md](LICENSE.md).
