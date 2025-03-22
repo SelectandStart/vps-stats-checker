@@ -86,7 +86,8 @@ Boredom. Just trying to get my server stats to show on my Discord.
 6. (Optional) You can also crontab to make this run automatically!
   - (Optional) Run `crontab -e`
   - Add `*/5 * * * * /bin/bash /path/to/server_status.sh`
-    - You can also change the time, if you know how to use Crontab. (Assuming you have man instlaled, use `man crontab` for documentation. If not, use your package manager to install `man`)
+    - You can also change the time, if you know how to use Crontab. (Assuming you have man instlalled, use `man crontab` for documentation. If not, use your package manager to install `man`)
+    - You can use a Crontab calculator like [Crontab Guru](https://crontab.guru) if you need help with times.
 
 ## Troubleshooting
 
